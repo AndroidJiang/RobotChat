@@ -76,7 +76,6 @@
                 android:paddingRight="5dp"
                 android:paddingTop="5dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/location_default"
                 android:text="河南省郑州市金水区南阳路"
                 android:visibility="gone" />
 
@@ -100,14 +99,14 @@
                         android:id="@+id/iv_music"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-                        android:src="@drawable/ic_music" />
+              />
 
                     <ProgressBar
                         android:id="@+id/pb_music"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:visibility="gone"
-                        android:indeterminateDrawable="@drawable/music_playing" />
+                       />
 
                     <TextView
                         android:id="@+id/tv_song_name"
@@ -164,7 +163,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="50dp"
                 android:layout_toLeftOf="@+id/chatto_icon"
-                android:background="@drawable/chatto_bg"
                 android:gravity="center_vertical"
                 android:paddingBottom="3dp"
                 android:paddingRight="13dp"
@@ -177,7 +175,6 @@
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:layout_toLeftOf="@+id/chatto_icon"
-                android:background="@drawable/chatto_bg"
                 android:paddingBottom="5dp"
                 android:paddingLeft="5dp"
                 android:paddingRight="15dp"
@@ -191,14 +188,12 @@
                 android:layout_width="200dp"
                 android:layout_height="120dp"
                 android:layout_toLeftOf="@+id/chatto_icon"
-                android:background="@drawable/chatto_bg"
                 android:gravity="center"
                 android:paddingBottom="5dp"
                 android:paddingLeft="5dp"
                 android:paddingRight="15dp"
                 android:paddingTop="5dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/location_default"
                 android:visibility="gone" />
         </RelativeLayout>
     </RelativeLayout>
